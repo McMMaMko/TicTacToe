@@ -1,0 +1,18 @@
+/* 
+    Created on : Apr 25, 2019, 11:35:31 PM
+    Author     : McM
+*/
+
+ToggleButton{
+    -fx-pref-width:100;
+    -fx-pref-height:100;
+    -fx-image: Null.png";
+
+}
+
+#Player1{
+    -fx-text-fill: blue;
+}
+#Player2{
+    -fx-text-fill: red;
+}
