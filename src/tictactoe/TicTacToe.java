@@ -146,7 +146,7 @@ public class TicTacToe extends Application {
         Scene scene = new Scene(root);
         scene.getStylesheets().add(getClass().getResource("CssFile.css").toExternalForm());
         primaryStage.setScene(scene);
-        primaryStage.setTitle("X i Ox igra");
+        primaryStage.setTitle("Tic Tac Toe");
         primaryStage.show();
 
     }
