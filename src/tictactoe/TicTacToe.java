@@ -179,7 +179,7 @@ public class TicTacToe extends Application {
     public static void VictoryChecker(ToggleButton t1 ,ToggleButton t2 ,ToggleButton t3 ,ToggleButton t4 ,
             ToggleButton t5 ,ToggleButton t6,ToggleButton t7,ToggleButton t8,ToggleButton t9,Stage priStage){
         
-        
+        //X wins
         if ((t1.getId().equals("1")&&t2.getId().equals("1")&&t3.getId().equals("1"))||
            (t4.getId().equals("1")&&t5.getId().equals("1")&&t6.getId().equals("1"))||
            (t7.getId().equals("1")&&t8.getId().equals("1")&&t9.getId().equals("1"))||
@@ -216,6 +216,7 @@ public class TicTacToe extends Application {
  
             newWindow.show();
 
+            //O wins
         }if ((t1.getId().equals("2")&&t2.getId().equals("2")&&t3.getId().equals("2"))||
            (t4.getId().equals("2")&&t5.getId().equals("2")&&t6.getId().equals("2"))||
            (t7.getId().equals("2")&&t8.getId().equals("2")&&t9.getId().equals("2"))||
