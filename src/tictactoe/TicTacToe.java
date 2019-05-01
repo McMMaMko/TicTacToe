@@ -193,7 +193,7 @@ public class TicTacToe extends Application {
             
             
             Label v1Label = new Label("Pobjeda Player 1");
-
+            v1Label.setId("P1");
             StackPane newWindowStackPane = new StackPane();
             newWindowStackPane.getChildren().add(v1Label);
 
@@ -201,7 +201,7 @@ public class TicTacToe extends Application {
 
             // New window 
             Stage newWindow = new Stage();
-            newWindow.setTitle("Second Stage");
+            newWindow.setTitle("Victory!!!");
             newWindow.setScene(sceneTwo);
             
             // Specifies the modality for new window.
@@ -230,7 +230,7 @@ public class TicTacToe extends Application {
             
             
             Label v1Label = new Label("Pobjeda Player 2");
-
+            v1Label.setId("P2");
             StackPane newWindowStackPane = new StackPane();
             newWindowStackPane.getChildren().add(v1Label);
 
@@ -238,7 +238,7 @@ public class TicTacToe extends Application {
 
             // New window 
             Stage newWindow = new Stage();
-            newWindow.setTitle("Second Stage");
+            newWindow.setTitle("Victory!!!");
             newWindow.setScene(sceneTwo);
             
             // Specifies the modality for new window.

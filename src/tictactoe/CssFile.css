@@ -20,3 +20,11 @@ ToggleButton{
     -fx-font-size:25;
     -fx-text-fill: red;
 }
+#P1{
+    -fx-font-size:25;
+    -fx-text-fill: blue;
+}
+#P2{
+    -fx-font-size:25;
+    -fx-text-fill: red;
+}
